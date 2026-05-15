@@ -1,19 +1,17 @@
-name: AutoSync
+name: SyncUpstream
 on:
+  workflow_dispatch:
   schedule:
     - cron: '0 2 * * *'
-  workflow_dispatch:
 
 jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - name: Sync original repo
-        uses: repo-sync/pull-request@v2
+      - name: Sync repo
+        uses: wei/pull@master
         with:
-          source_repository: cmliu/edgetunnel
-          source_branch: main
-          destination_branch: main
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          upstream: cmliu/edgetunnel:main
+          remote: origin
+          branch: main
 
