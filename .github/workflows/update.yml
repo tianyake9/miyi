@@ -12,7 +12,7 @@ jobs:
       - name: Set up Git
         run: |
           git config --global user.name "tianyake9"
-          git config --global user.email "你的GitHub邮箱"
+          git config --global user.email "2415407354@qq.com"
       - name: Run update script
         run: |
           chmod +x update_geoip.sh
