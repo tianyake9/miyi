@@ -1,32 +1,20 @@
 name: 自动更新节点&规则
 on:
-  # 每天北京时间凌晨2点自动运行（可改）
+  push:
   schedule:
-    - cron: "0 18 * * *"
-  # 支持手动点按钮运行
-  workflow_dispatch:
-
-# 给脚本仓库写入权限，才能自动提交更新
-permissions:
-  contents: write
-
+    - cron: '0 0 * * *'
 jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - name: 拉取仓库代码
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - name: 执行自动更新脚本
-        run: bash update_geoip.sh
-
-      - name: 提交&推送更新
-        run: |
-          git config --global user.name "AutoUpdateBot"
-          git config --global user.email "bot@github.com"
+      - uses: actions/checkout@v4
+      - run: |
+          curl -fsSL https://github.com/MetaCubeX/meta-rules-dat/releases/latest/download/geoip.dat -o geoip.dat
+          curl -fsSL https://github.com/MetaCubeX/meta-rules-dat/releases/latest/download/geosite.dat -o geosite.dat
+          curl -fsSL "https://miyi-71l.pages.dev/sub?token=cc7169dfdfbe6a11c987d1d9ce8f92af&target=clash" -o nodes.yaml
+      - run: |
+          git config user.name bot
+          git config user.email bot@github.com
           git add .
-          git commit -m "🤖 自动更新节点&规则 $(date '+%Y-%m-%d %H:%M')" || echo "无更新无需提交"
+          git commit -m auto-update || true
           git push
-
