@@ -29,22 +29,22 @@ mode: rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: CF官方优选1, server: 172.67.79.223, port: 2096, type: vless, uuid: e5a07e56-848f-40ba-811a-d3d5a8e17683, tls: true, skip-cert-verify: false, servername: miyi-71l.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: miyi-71l.pages.dev}}}
-  - {name: CF官方优选2, server: 104.19.32.152, port: 443, type: vless, uuid: e5a07e56-848f-40ba-811a-d3d5a8e17683, tls: true, skip-cert-verify: false, servername: miyi-71l.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: miyi-71l.pages.dev}}}
-  - {name: CF官方优选3, server: 104.19.145.111, port: 2083, type: vless, uuid: e5a07e56-848f-40ba-811a-d3d5a8e17683, tls: true, skip-cert-verify: false, servername: miyi-71l.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: miyi-71l.pages.dev}}}
-  - {name: CF官方优选4, server: 104.19.148.214, port: 443, type: vless, uuid: e5a07e56-848f-40ba-811a-d3d5a8e17683, tls: true, skip-cert-verify: false, servername: miyi-71l.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: miyi-71l.pages.dev}}}
-  - {name: CF官方优选5, server: 104.17.16.151, port: 2087, type: vless, uuid: e5a07e56-848f-40ba-811a-d3d5a8e17683, tls: true, skip-cert-verify: false, servername: miyi-71l.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: miyi-71l.pages.dev}}}
-  - {name: CF官方优选6, server: 162.159.36.106, port: 2087, type: vless, uuid: e5a07e56-848f-40ba-811a-d3d5a8e17683, tls: true, skip-cert-verify: false, servername: miyi-71l.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: miyi-71l.pages.dev}}}
-  - {name: CF官方优选7, server: 198.41.208.124, port: 2083, type: vless, uuid: e5a07e56-848f-40ba-811a-d3d5a8e17683, tls: true, skip-cert-verify: false, servername: miyi-71l.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: miyi-71l.pages.dev}}}
-  - {name: CF官方优选8, server: 104.17.99.106, port: 2083, type: vless, uuid: e5a07e56-848f-40ba-811a-d3d5a8e17683, tls: true, skip-cert-verify: false, servername: miyi-71l.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: miyi-71l.pages.dev}}}
-  - {name: CF官方优选9, server: 91.193.58.58, port: 443, type: vless, uuid: e5a07e56-848f-40ba-811a-d3d5a8e17683, tls: true, skip-cert-verify: false, servername: miyi-71l.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: miyi-71l.pages.dev}}}
-  - {name: CF官方优选10, server: 188.164.248.202, port: 443, type: vless, uuid: e5a07e56-848f-40ba-811a-d3d5a8e17683, tls: true, skip-cert-verify: false, servername: miyi-71l.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: miyi-71l.pages.dev}}}
-  - {name: CF官方优选11, server: 104.19.34.186, port: 443, type: vless, uuid: e5a07e56-848f-40ba-811a-d3d5a8e17683, tls: true, skip-cert-verify: false, servername: miyi-71l.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: miyi-71l.pages.dev}}}
-  - {name: CF官方优选12, server: 104.16.243.85, port: 443, type: vless, uuid: e5a07e56-848f-40ba-811a-d3d5a8e17683, tls: true, skip-cert-verify: false, servername: miyi-71l.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: miyi-71l.pages.dev}}}
-  - {name: CF官方优选13, server: 162.159.40.3, port: 2096, type: vless, uuid: e5a07e56-848f-40ba-811a-d3d5a8e17683, tls: true, skip-cert-verify: false, servername: miyi-71l.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: miyi-71l.pages.dev}}}
-  - {name: CF官方优选14, server: 91.193.59.126, port: 2096, type: vless, uuid: e5a07e56-848f-40ba-811a-d3d5a8e17683, tls: true, skip-cert-verify: false, servername: miyi-71l.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: miyi-71l.pages.dev}}}
-  - {name: CF官方优选15, server: 104.17.100.63, port: 2083, type: vless, uuid: e5a07e56-848f-40ba-811a-d3d5a8e17683, tls: true, skip-cert-verify: false, servername: miyi-71l.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: miyi-71l.pages.dev}}}
-  - {name: CF官方优选16, server: 104.16.154.15, port: 2053, type: vless, uuid: e5a07e56-848f-40ba-811a-d3d5a8e17683, tls: true, skip-cert-verify: false, servername: miyi-71l.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: miyi-71l.pages.dev}}}
+  - {name: CF官方优选1, server: 162.159.36.94, port: 8443, type: vless, uuid: e5a07e56-848f-40ba-811a-d3d5a8e17683, tls: true, skip-cert-verify: false, servername: miyi-71l.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: miyi-71l.pages.dev}}}
+  - {name: CF官方优选2, server: 104.17.17.102, port: 443, type: vless, uuid: e5a07e56-848f-40ba-811a-d3d5a8e17683, tls: true, skip-cert-verify: false, servername: miyi-71l.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: miyi-71l.pages.dev}}}
+  - {name: CF官方优选3, server: 104.17.62.44, port: 2053, type: vless, uuid: e5a07e56-848f-40ba-811a-d3d5a8e17683, tls: true, skip-cert-verify: false, servername: miyi-71l.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: miyi-71l.pages.dev}}}
+  - {name: CF官方优选4, server: 8.39.125.195, port: 2096, type: vless, uuid: e5a07e56-848f-40ba-811a-d3d5a8e17683, tls: true, skip-cert-verify: false, servername: miyi-71l.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: miyi-71l.pages.dev}}}
+  - {name: CF官方优选5, server: 104.19.32.167, port: 2083, type: vless, uuid: e5a07e56-848f-40ba-811a-d3d5a8e17683, tls: true, skip-cert-verify: false, servername: miyi-71l.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: miyi-71l.pages.dev}}}
+  - {name: CF官方优选6, server: 104.19.52.22, port: 8443, type: vless, uuid: e5a07e56-848f-40ba-811a-d3d5a8e17683, tls: true, skip-cert-verify: false, servername: miyi-71l.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: miyi-71l.pages.dev}}}
+  - {name: CF官方优选7, server: 91.193.58.222, port: 8443, type: vless, uuid: e5a07e56-848f-40ba-811a-d3d5a8e17683, tls: true, skip-cert-verify: false, servername: miyi-71l.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: miyi-71l.pages.dev}}}
+  - {name: CF官方优选8, server: 8.35.211.12, port: 443, type: vless, uuid: e5a07e56-848f-40ba-811a-d3d5a8e17683, tls: true, skip-cert-verify: false, servername: miyi-71l.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: miyi-71l.pages.dev}}}
+  - {name: CF官方优选9, server: 104.17.218.95, port: 2087, type: vless, uuid: e5a07e56-848f-40ba-811a-d3d5a8e17683, tls: true, skip-cert-verify: false, servername: miyi-71l.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: miyi-71l.pages.dev}}}
+  - {name: CF官方优选10, server: 162.159.43.88, port: 8443, type: vless, uuid: e5a07e56-848f-40ba-811a-d3d5a8e17683, tls: true, skip-cert-verify: false, servername: miyi-71l.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: miyi-71l.pages.dev}}}
+  - {name: CF官方优选11, server: 104.17.62.75, port: 2096, type: vless, uuid: e5a07e56-848f-40ba-811a-d3d5a8e17683, tls: true, skip-cert-verify: false, servername: miyi-71l.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: miyi-71l.pages.dev}}}
+  - {name: CF官方优选12, server: 104.17.51.1, port: 2096, type: vless, uuid: e5a07e56-848f-40ba-811a-d3d5a8e17683, tls: true, skip-cert-verify: false, servername: miyi-71l.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: miyi-71l.pages.dev}}}
+  - {name: CF官方优选13, server: 104.17.106.41, port: 2087, type: vless, uuid: e5a07e56-848f-40ba-811a-d3d5a8e17683, tls: true, skip-cert-verify: false, servername: miyi-71l.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: miyi-71l.pages.dev}}}
+  - {name: CF官方优选14, server: 104.19.33.92, port: 2083, type: vless, uuid: e5a07e56-848f-40ba-811a-d3d5a8e17683, tls: true, skip-cert-verify: false, servername: miyi-71l.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: miyi-71l.pages.dev}}}
+  - {name: CF官方优选15, server: 198.41.208.248, port: 2096, type: vless, uuid: e5a07e56-848f-40ba-811a-d3d5a8e17683, tls: true, skip-cert-verify: false, servername: miyi-71l.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: miyi-71l.pages.dev}}}
+  - {name: CF官方优选16, server: 104.17.188.106, port: 8443, type: vless, uuid: e5a07e56-848f-40ba-811a-d3d5a8e17683, tls: true, skip-cert-verify: false, servername: miyi-71l.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: miyi-71l.pages.dev}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -8701,7 +8701,6 @@ rules:
   - IP-CIDR,8.6.112.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,8.20.125.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,8.21.10.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,8.21.111.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,8.24.87.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,8.27.64.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,8.27.66.0/23,☁️ CloudFlareCDN,no-resolve
@@ -8715,8 +8714,6 @@ rules:
   - IP-CIDR,8.39.125.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,8.39.204.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,8.39.214.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,8.44.61.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,8.47.13.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,8.47.69.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,23.131.204.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,23.227.37.0/24,☁️ CloudFlareCDN,no-resolve
@@ -8740,7 +8737,6 @@ rules:
   - IP-CIDR,45.157.17.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,45.192.223.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,45.192.224.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,45.195.14.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,45.195.153.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,45.196.29.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,45.198.114.0/24,☁️ CloudFlareCDN,no-resolve
@@ -8780,6 +8776,7 @@ rules:
   - IP-CIDR,82.22.16.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,82.25.20.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,82.26.156.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,82.47.124.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,82.109.153.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,82.139.216.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,87.86.16.0/24,☁️ CloudFlareCDN,no-resolve
@@ -8787,7 +8784,6 @@ rules:
   - IP-CIDR,88.216.69.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,89.46.251.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,89.106.90.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,89.249.200.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,91.206.71.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,91.213.221.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,91.224.186.0/24,☁️ CloudFlareCDN,no-resolve
@@ -8853,10 +8849,10 @@ rules:
   - IP-CIDR,104.22.134.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.136.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.140.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,104.22.148.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,104.22.150.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.155.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.156.0/22,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,104.22.160.0/23,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,104.22.162.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.165.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.167.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.168.0/24,☁️ CloudFlareCDN,no-resolve
@@ -8868,6 +8864,8 @@ rules:
   - IP-CIDR,104.22.186.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.190.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.192.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,104.22.219.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,104.22.220.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.23.160.0/20,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.23.176.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.23.178.0/24,☁️ CloudFlareCDN,no-resolve
@@ -8889,13 +8887,7 @@ rules:
   - IP-CIDR,104.27.0.0/17,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.27.192.0/20,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.28.0.0/16,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,104.29.9.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,104.29.45.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,104.29.77.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,104.29.92.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.29.111.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,104.29.114.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,104.29.121.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.29.124.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.29.128.0/18,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.30.0.0/19,☁️ CloudFlareCDN,no-resolve
@@ -8927,6 +8919,7 @@ rules:
   - IP-CIDR,108.162.248.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,108.162.250.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,109.234.211.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,122.152.164.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,123.108.75.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,123.253.173.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,123.253.174.0/24,☁️ CloudFlareCDN,no-resolve
@@ -8958,11 +8951,13 @@ rules:
   - IP-CIDR,143.14.142.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,143.14.224.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,143.14.251.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,144.56.84.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,144.124.208.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,144.124.211.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,144.124.212.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,144.124.214.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,144.208.122.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,144.225.90.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,145.63.64.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,145.224.255.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,146.19.108.0/24,☁️ CloudFlareCDN,no-resolve
@@ -9238,6 +9233,7 @@ rules:
   - IP-CIDR,172.69.72.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.69.74.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.69.79.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,172.69.80.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.69.82.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.69.86.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.69.88.0/24,☁️ CloudFlareCDN,no-resolve
@@ -9405,6 +9401,7 @@ rules:
   - IP-CIDR,178.83.176.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,178.93.117.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,178.94.249.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,180.255.25.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,181.215.196.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,182.23.210.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,185.7.240.0/24,☁️ CloudFlareCDN,no-resolve
@@ -9413,6 +9410,7 @@ rules:
   - IP-CIDR,185.38.25.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,185.41.148.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,185.60.251.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,185.106.205.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,185.132.85.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,185.132.86.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,185.133.172.0/24,☁️ CloudFlareCDN,no-resolve
@@ -9452,7 +9450,6 @@ rules:
   - IP-CIDR,194.34.84.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,194.34.88.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,194.34.93.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,194.41.114.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,194.77.235.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,194.152.130.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,195.66.29.0/24,☁️ CloudFlareCDN,no-resolve
@@ -9485,10 +9482,12 @@ rules:
   - IP-CIDR,199.65.62.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,199.68.16.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,200.69.28.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,200.218.32.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,202.27.69.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,202.49.114.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,203.5.33.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,203.15.65.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,203.116.108.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,203.117.8.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,203.117.53.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,203.120.52.0/24,☁️ CloudFlareCDN,no-resolve
@@ -9548,6 +9547,7 @@ rules:
   - IP-CIDR,104.23.64.0/19,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,141.101.64.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,141.101.91.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,162.159.83.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.71.32.0/19,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.71.64.0/20,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,198.41.143.0/24,☁️ CloudFlareCDN,no-resolve
