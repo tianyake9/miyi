@@ -29,22 +29,22 @@ mode: rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: CF官方优选1, server: 104.17.48.172, port: 2083, type: vless, uuid: e5a07e56-848f-40ba-811a-d3d5a8e17683, tls: true, skip-cert-verify: false, servername: miyi-71l.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: miyi-71l.pages.dev}}}
-  - {name: CF官方优选2, server: 104.17.50.32, port: 2083, type: vless, uuid: e5a07e56-848f-40ba-811a-d3d5a8e17683, tls: true, skip-cert-verify: false, servername: miyi-71l.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: miyi-71l.pages.dev}}}
-  - {name: CF官方优选3, server: 91.193.59.115, port: 2083, type: vless, uuid: e5a07e56-848f-40ba-811a-d3d5a8e17683, tls: true, skip-cert-verify: false, servername: miyi-71l.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: miyi-71l.pages.dev}}}
-  - {name: CF官方优选4, server: 198.41.208.189, port: 2096, type: vless, uuid: e5a07e56-848f-40ba-811a-d3d5a8e17683, tls: true, skip-cert-verify: false, servername: miyi-71l.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: miyi-71l.pages.dev}}}
-  - {name: CF官方优选5, server: 8.35.211.174, port: 2096, type: vless, uuid: e5a07e56-848f-40ba-811a-d3d5a8e17683, tls: true, skip-cert-verify: false, servername: miyi-71l.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: miyi-71l.pages.dev}}}
-  - {name: CF官方优选6, server: 172.66.2.104, port: 443, type: vless, uuid: e5a07e56-848f-40ba-811a-d3d5a8e17683, tls: true, skip-cert-verify: false, servername: miyi-71l.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: miyi-71l.pages.dev}}}
-  - {name: CF官方优选7, server: 104.19.48.201, port: 2083, type: vless, uuid: e5a07e56-848f-40ba-811a-d3d5a8e17683, tls: true, skip-cert-verify: false, servername: miyi-71l.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: miyi-71l.pages.dev}}}
-  - {name: CF官方优选8, server: 104.17.103.225, port: 2083, type: vless, uuid: e5a07e56-848f-40ba-811a-d3d5a8e17683, tls: true, skip-cert-verify: false, servername: miyi-71l.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: miyi-71l.pages.dev}}}
-  - {name: CF官方优选9, server: 104.17.154.135, port: 2096, type: vless, uuid: e5a07e56-848f-40ba-811a-d3d5a8e17683, tls: true, skip-cert-verify: false, servername: miyi-71l.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: miyi-71l.pages.dev}}}
-  - {name: CF官方优选10, server: 91.193.59.239, port: 2096, type: vless, uuid: e5a07e56-848f-40ba-811a-d3d5a8e17683, tls: true, skip-cert-verify: false, servername: miyi-71l.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: miyi-71l.pages.dev}}}
-  - {name: CF官方优选11, server: 162.159.45.197, port: 8443, type: vless, uuid: e5a07e56-848f-40ba-811a-d3d5a8e17683, tls: true, skip-cert-verify: false, servername: miyi-71l.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: miyi-71l.pages.dev}}}
-  - {name: CF官方优选12, server: 104.19.34.232, port: 443, type: vless, uuid: e5a07e56-848f-40ba-811a-d3d5a8e17683, tls: true, skip-cert-verify: false, servername: miyi-71l.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: miyi-71l.pages.dev}}}
-  - {name: CF官方优选13, server: 104.26.14.120, port: 2053, type: vless, uuid: e5a07e56-848f-40ba-811a-d3d5a8e17683, tls: true, skip-cert-verify: false, servername: miyi-71l.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: miyi-71l.pages.dev}}}
-  - {name: CF官方优选14, server: 104.17.221.49, port: 8443, type: vless, uuid: e5a07e56-848f-40ba-811a-d3d5a8e17683, tls: true, skip-cert-verify: false, servername: miyi-71l.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: miyi-71l.pages.dev}}}
-  - {name: CF官方优选15, server: 104.17.17.166, port: 443, type: vless, uuid: e5a07e56-848f-40ba-811a-d3d5a8e17683, tls: true, skip-cert-verify: false, servername: miyi-71l.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: miyi-71l.pages.dev}}}
-  - {name: CF官方优选16, server: 104.17.170.215, port: 8443, type: vless, uuid: e5a07e56-848f-40ba-811a-d3d5a8e17683, tls: true, skip-cert-verify: false, servername: miyi-71l.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: miyi-71l.pages.dev}}}
+  - {name: CF官方优选1, server: 104.17.23.217, port: 2087, type: vless, uuid: e5a07e56-848f-40ba-811a-d3d5a8e17683, tls: true, skip-cert-verify: false, servername: miyi-71l.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: miyi-71l.pages.dev}}}
+  - {name: CF官方优选2, server: 108.162.198.127, port: 2053, type: vless, uuid: e5a07e56-848f-40ba-811a-d3d5a8e17683, tls: true, skip-cert-verify: false, servername: miyi-71l.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: miyi-71l.pages.dev}}}
+  - {name: CF官方优选3, server: 104.17.162.23, port: 2087, type: vless, uuid: e5a07e56-848f-40ba-811a-d3d5a8e17683, tls: true, skip-cert-verify: false, servername: miyi-71l.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: miyi-71l.pages.dev}}}
+  - {name: CF官方优选4, server: 104.18.33.171, port: 2087, type: vless, uuid: e5a07e56-848f-40ba-811a-d3d5a8e17683, tls: true, skip-cert-verify: false, servername: miyi-71l.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: miyi-71l.pages.dev}}}
+  - {name: CF官方优选5, server: 104.16.253.131, port: 2053, type: vless, uuid: e5a07e56-848f-40ba-811a-d3d5a8e17683, tls: true, skip-cert-verify: false, servername: miyi-71l.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: miyi-71l.pages.dev}}}
+  - {name: CF官方优选6, server: 108.162.198.99, port: 2096, type: vless, uuid: e5a07e56-848f-40ba-811a-d3d5a8e17683, tls: true, skip-cert-verify: false, servername: miyi-71l.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: miyi-71l.pages.dev}}}
+  - {name: CF官方优选7, server: 188.164.248.46, port: 2053, type: vless, uuid: e5a07e56-848f-40ba-811a-d3d5a8e17683, tls: true, skip-cert-verify: false, servername: miyi-71l.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: miyi-71l.pages.dev}}}
+  - {name: CF官方优选8, server: 104.19.51.40, port: 443, type: vless, uuid: e5a07e56-848f-40ba-811a-d3d5a8e17683, tls: true, skip-cert-verify: false, servername: miyi-71l.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: miyi-71l.pages.dev}}}
+  - {name: CF官方优选9, server: 188.164.248.32, port: 2053, type: vless, uuid: e5a07e56-848f-40ba-811a-d3d5a8e17683, tls: true, skip-cert-verify: false, servername: miyi-71l.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: miyi-71l.pages.dev}}}
+  - {name: CF官方优选10, server: 172.66.0.33, port: 2053, type: vless, uuid: e5a07e56-848f-40ba-811a-d3d5a8e17683, tls: true, skip-cert-verify: false, servername: miyi-71l.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: miyi-71l.pages.dev}}}
+  - {name: CF官方优选11, server: 104.19.35.186, port: 8443, type: vless, uuid: e5a07e56-848f-40ba-811a-d3d5a8e17683, tls: true, skip-cert-verify: false, servername: miyi-71l.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: miyi-71l.pages.dev}}}
+  - {name: CF官方优选12, server: 198.41.208.42, port: 2096, type: vless, uuid: e5a07e56-848f-40ba-811a-d3d5a8e17683, tls: true, skip-cert-verify: false, servername: miyi-71l.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: miyi-71l.pages.dev}}}
+  - {name: CF官方优选13, server: 104.18.33.227, port: 2083, type: vless, uuid: e5a07e56-848f-40ba-811a-d3d5a8e17683, tls: true, skip-cert-verify: false, servername: miyi-71l.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: miyi-71l.pages.dev}}}
+  - {name: CF官方优选14, server: 198.41.208.191, port: 2096, type: vless, uuid: e5a07e56-848f-40ba-811a-d3d5a8e17683, tls: true, skip-cert-verify: false, servername: miyi-71l.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: miyi-71l.pages.dev}}}
+  - {name: CF官方优选15, server: 188.164.248.226, port: 443, type: vless, uuid: e5a07e56-848f-40ba-811a-d3d5a8e17683, tls: true, skip-cert-verify: false, servername: miyi-71l.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: miyi-71l.pages.dev}}}
+  - {name: CF官方优选16, server: 172.67.64.38, port: 2087, type: vless, uuid: e5a07e56-848f-40ba-811a-d3d5a8e17683, tls: true, skip-cert-verify: false, servername: miyi-71l.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: miyi-71l.pages.dev}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -6722,6 +6722,111 @@ rules:
   - DOMAIN,picrx8i067.61y77.adobestats.io,🛑 全球拦截
   - DOMAIN,bpkh681n1.hmq9r.adobestats.io,🛑 全球拦截
   - DOMAIN,hw7w59pe.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,085ae90xd1.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,0xx2u9tqcv6.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,18nq375cve.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,19ft6401hp.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,1iopzu3le.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,1q6j4iy2d.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,1tgftrtqh.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,1uixane2usri.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,1w2yq3cc6kaq.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,25lgquqo23.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,2maarmyn4.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,30r92skes.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,39xp014nwd.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,3bghi7py1tx9.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,3jme6yg1ks.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,3jr11byl5.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,400vncnjq.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,5a3sc3pzu2.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,5gr5f739.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,5luvr13t.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,61m5fy6660j.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,64ovo92n7av5.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,6ko3seksm0ls.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,7bc3hz5t82aw.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,82romfuzjcm.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,8gga1crk9w26.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,8jt3ezbvh3dw.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,8noa2w1ck.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,9d25rgm2sl5p.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,9qdfx4tqz.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,amqwugiqn0d6.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,av10eej36pr4.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,b8qlmyxp6ad1.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,bptmu6m29zq5.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,c959fglozl.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,ce0f6jp2.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,cx5oa4pwe.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,d8y4ott2o.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,dckgkgrc88e.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,dod8nx5mmh.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,e5mfhgfwhmqp.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,efw49stxqc.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,f6jqcvibklu.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,fmnobi8yg.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,gq1kdis5llc.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,h4wsofr07f0y.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,h7nu3ixn3.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,hbpj7wsu1.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,hqb3i4cheq.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,i9x6jomh0q.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,ihrziqxql4c.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,iri7gj9i.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,iwi3tdrl4.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,iz6wtmwhqqt.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,je36edga1s.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,k1lbxfvqih4.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,kh0y4tx5ylad.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,kiq4oxrl6hjw.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,km6jaoxrlt.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,ltwefefeeni.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,lyllpd5q.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,m07cf6sznl.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,mab7w33fh.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,n3c0km0c.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,n3ulnzzoyiu.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,ncr2ea2f.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,nleig3b7p.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,nmjye3airyi8.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,nvra1i5rcsc.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,o8jnod44h.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,oj1e2609au.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,oog6tjvah6b7.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,p7fgqkycu3sw.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,pb0emidd5.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,pzrjibbm09sq.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,q3ug03wg.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,q4vdjqpj.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,q98trwtebkny.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,qnly3co4556.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,r3611bdno78r.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,r5lggki5.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,tags47kn5.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,ts3mwug8q.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,w0yatka53.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,wdz8u5h8v88.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,xoutkxnhq.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,yd0mptfqf1.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,ykekfkhgh.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,ytg32shi.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,z2rei59c.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,z2xfo3f2fy.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,z862ysa4.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,za3cclgdyd0.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,zpc91ra9je.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,zs35omwv.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,zuz52eqf12.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,zwv1aalaw7e.ok0r5.adobestats.io,🛑 全球拦截
+  - DOMAIN,g668bl5lzq.qd2w8.adobestats.io,🛑 全球拦截
+  - DOMAIN,izhszwo0my.qd2w8.adobestats.io,🛑 全球拦截
+  - DOMAIN,nwkjz1w1xa.qd2w8.adobestats.io,🛑 全球拦截
+  - DOMAIN,g668bl5lzq.68gqg.hstatic.io,🛑 全球拦截
+  - DOMAIN,r9wfhggrai.qd2w8.adobestats.io,🛑 全球拦截
+  - DOMAIN,r9wfhggrai.68gqg.hstatic.io,🛑 全球拦截
+  - DOMAIN,oithn4jbtc.qd2w8.adobestats.io,🛑 全球拦截
+  - DOMAIN,3tq4ajzff7.qd2w8.adobestats.io,🛑 全球拦截
   - DOMAIN-SUFFIX,265.com,🚀 节点选择
   - DOMAIN-SUFFIX,2mdn.net,🚀 节点选择
   - DOMAIN-SUFFIX,alt1-mtalk.google.com,🚀 节点选择
